@@ -78,19 +78,18 @@
 
 p {
 	font-family: 'lato', sans-serif;
-	
+	color: blue;	
 }
 
 
 h1 {
-	
+	font-family: 'karla',sans-serif''
 	font-size:30px;
 	
 }
 .section {
 	width: 100vw;
 	height: 60vw;
-	border: 4px solid yellow; 
 	position: relative;
 }
 
@@ -149,15 +148,13 @@ display: block;
 	text-transform: none;
 	width: 40vw;
 	position: relative;
-	color: black;
+	color: blue;
 	animation: zoomIn 10s 1;
 
 }
 
 .future:hover .intro {
 	display: block;
-
-	
 }
 
 #site-name {
@@ -246,7 +243,6 @@ nav, li {
 
 
 .sticky-room {
-	background-color: lightcyan;
 	height: 49vw;
 	width: 100vw;
 }
@@ -257,7 +253,7 @@ nav, li {
 	position: absolute;
 	background-color: aqua;
 	top: 15vw;
-	left: 15vw;
+	left: 40vw;
 }
 
 .top-note {
@@ -272,16 +268,16 @@ nav, li {
 	height: 10vw;
 	position: absolute;
 	background-color: violet;
-	top: 35vw;
-	left: 25vw;
+	top: 30vw;
+	left: 50vw;
 }
 .sticky-note-o {
 	width: 10vw;
 	height: 10vw;
 	position: absolute;
 	background-color: coral;
-	top: 35vw;
-	left: 75vw;
+	top: 25vw;
+	left: 25vw;
 }
 .top-note-o {
 	width: 10vw;
@@ -298,7 +294,7 @@ nav, li {
 	position: absolute;
 	background-color: palegreen;
 	top: 29vw;
-	left: 59vw;
+	left: 79vw;
 }
 
 .top-note-g {
@@ -397,39 +393,66 @@ nav, li {
 	font-family: 'karla', sans-serif;
 	position: absolute;
 	letter-spacing: .5px;
-	top: 40vw;
-	left: 8vw;
+	top: 5vw;
+	left: 20vw;
 	padding-top: 10px;
 	padding-left: 10px; 
 	display: block;
 	font-size: 1.6vw;
-	border: 2px solid blue; 
 	width: 20vw;
 	height: 7.5vw;
-	line-height: vw;
+	line-height: 3vw;
+	color: blue;
+}
+
+.map {
+	width: 130%;
+	position: absolute;
+	display: block;
+	top: 10vw;
+	left: 0vw;
+	border: 2px solid red;
 }
 
 .time {
-	font-size: 1vw;
-	
+	font-size: 1.2vw;
+	color: blue;
 }
 .date {
-	font-size: 1vw;
-	font-weight: 00;
-	
+	font-size: 1.2vw;
+	font-weight: 300;
+	color: blue;
 	
 }
 
 .text {
 	
 	top: 14vw;
-	left: 56vw;
+	left: 56.5vw;
 	position: relative;
 	font-family: 'lato', sans-serif;
 	width: 35vw;
 	font-size: 1vw;
 	
 	
+}
+
+#time1 {
+	color: red;
+	font-family: 'karla', sans-serif;
+	font-size: 2vw;
+	letter-spacing: .4vw;
+	
+}
+
+
+.content {
+	position: relative;
+	display: block;
+	left: 56.5vw;
+	top: 8vw;
+	line-height: 1.2vw;
+	width: 20vw;
 }
 
 .bios {
@@ -562,6 +585,17 @@ nav, li {
 	z-index: 100;
 	overflow: hidden;
 
+}
+
+
+#bodytext {
+	width: 40vw;
+	right: 30vw;
+	position: absolute;
+	display: block;
+	letter-spacing: .3px;
+	line-height: 2.3vw;
+	top: 20vw;
 }
 
 
