@@ -469,7 +469,7 @@ nav, li {
 	line-height: 1.4vw;
 	color: blue;
 	position: relative;
-	top:1vw;
+	top:-1vw;
 	left: 73vw;
 	display: block;
 	z-index: 5000;
@@ -481,6 +481,7 @@ nav, li {
 	left: 58vw;
 	position: absolute;
 	height: 30%;
+	top: 17vw;
 	display: block;
 	z-index: 3000;
 }
@@ -492,7 +493,7 @@ nav, li {
 	line-height: 1.4vw;
 	color: blue;
 	position: relative;
-	top:5vw;
+	top:-1vw;
 	left: 45vw;
 	display: block;
 	z-index: 5000;
@@ -504,7 +505,7 @@ nav, li {
 	left: 22vw;
 	position: absolute;
 	height: 45%;
-	top: 35vw;
+	top: 29vw;
 	display: block;
 	z-index: 3000;
 }
